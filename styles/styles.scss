@@ -129,6 +129,31 @@ section {
   }
 }
 
+.theme-btn {
+  top: 5%;
+  right: 3%;
+  cursor: pointer;
+  background-color: var(--color-grey-4);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem 0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: translateY(-3px);
+  }
+  i {
+    font-size: 1.2rem;
+    color: var(--color-grey-2);
+    pointer-events: none;
+  }
+}
+
 //header-content//
 .header-content {
   display: grid;
