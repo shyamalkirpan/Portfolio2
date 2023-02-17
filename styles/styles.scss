@@ -519,9 +519,13 @@ section {
           padding: 0 !important;
         }
         .icon {
-          display: flex;
-          align-items: center;
-          font-size: 1.3rem;
+          display: grid;
+          grid-template-columns: 40px 1fr;
+          i {
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+          }
         }
       }
     }
