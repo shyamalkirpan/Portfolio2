@@ -51,7 +51,7 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
 }
@@ -519,7 +519,7 @@ section {
           padding: 0 !important;
         }
         .icon {
-          display: grid;
+          display: flex;
           align-items: center;
           font-size: 1.3rem;
         }
@@ -539,6 +539,7 @@ section {
         width: 50px;
         height: 50px;
         border-radius: 50%;
+        margin: 0 0.4rem;
         transition: all 0.4s ease-in-out;
         &:hover {
           background-color: var(--color-secondary);
