@@ -696,7 +696,7 @@ section {
   .controls {
     top: auto;
     bottom: 0;
-    flex-direction: row;
+    flex-direction: row !important;
     justify-content: center;
     left: 50%;
     transform: translateX(-50%);
